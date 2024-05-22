@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { UserService } from './Services/user.service';
 import { NgFor } from '@angular/common';
 import { AdduserComponent } from "./adduser/adduser.component";
+import { LoggerService } from './Services/logger.service';
 
 @Component({
     selector: 'app-root',
